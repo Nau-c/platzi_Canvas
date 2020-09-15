@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--utf8 nos permite agregar tildes-->
+  <meta charset="utf-8" />
+  <!--Esto es un título-->
+  <title>Dibujando con canvas</title>
+</head>
+
+<body>
+  <h1>Dibujo en canvas</h1>
+
+  <!--La etiqueta br la usamos para hacer un salto de linea, la etiqueta p para escribir el mensaje de nuestro boton. la P es un párrafo-->
+  <p>
+    Elige el número de líneas
+    <!--Para crear un cuadro de texto-->
+    <!--Con ID identificamos una etiqueta en Javascript-->
+    <input type= "text" id="texto_letras"/>
+
+    <!--PAra crear un boton que puede terner varias funciones, click, pasar por encima ratón..etc-->
+    <!--Value es valor del boton-->
+    <input type="button" value="Click" id="click"/>
+  </p>
+  <!--Canavas es el papel en el cual puede dibujar el usuario, el cual delimitamos en el hatml: con (height, width-->
+  <canvas width="300" height="300" id="Dibujando"></canvas>
+  <p>Asi queda tu dibujo</p>
+  <!--Cargar scripts externos-->
+  <script src="dibujo2.js"></script>
+</body>
+
+</html>
